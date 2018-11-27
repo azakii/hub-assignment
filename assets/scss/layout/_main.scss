@@ -257,10 +257,6 @@
   }
 }
 
-#contact .row{
-  margin-bottom:30px;
-}
-
 @media (max-width: 768px) { 
   #contact iframe {
       margin-bottom: 15px;
@@ -452,7 +448,7 @@
   .diamond:nth-child(1) {
     width: 150px;
     height: 150px;
-    margin:5px 5px 5px 290px;
+    margin:5px 5px 5px 268px;
     img {
       height: auto;
       width: 350px;
@@ -464,7 +460,7 @@
   .diamond:nth-child(2) {
     width: 180px;
     height: 180px;
-    margin: -10px 5px 5px 5px;
+    margin: -15px 5px 5px 5px;
     img {
       height: auto;
       width: 470px;
@@ -637,7 +633,7 @@ transform: skew(25deg, 0deg);
   }
 }
 .contactContainer {
-  .col-md-5 {
+  .col-md-6 {
     h5 {
       font-weight: 500;
       font-size: 1.125rem;
@@ -729,4 +725,7 @@ transform: skew(25deg, 0deg);
   img {
     display:none
   }
+}
+.single {
+  margin-top: -15px;
 }

@@ -436,13 +436,16 @@ select::-ms-expand {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  height: 30px;
-  width: 30px;
+  height: 40px;
+  width: 40px;
   padding: 0;
   border-radius: 50%;
-  line-height: 30px;
+  line-height: 45px;
   border:0;
   margin:0;
+  i {
+    font-size: 1.6rem;
+  }
 }
 .btn-social-icon.btn-lg{padding-left:61px}.btn-social-icon.btn-lg :first-child{line-height:45px;width:45px;font-size:1.8em}
 .btn-social-icon.btn-sm{padding-left:38px}.btn-social-icon.btn-sm :first-child{line-height:28px;width:28px;font-size:1.4em}
@@ -489,4 +492,9 @@ select::-ms-expand {
 .btn-vk.disabled,.btn-vk[disabled],fieldset[disabled] .btn-vk,.btn-vk.disabled:hover,.btn-vk[disabled]:hover,fieldset[disabled] .btn-vk:hover,.btn-vk.disabled:focus,.btn-vk[disabled]:focus,fieldset[disabled] .btn-vk:focus,.btn-vk.disabled:active,.btn-vk[disabled]:active,fieldset[disabled] .btn-vk:active,.btn-vk.disabled.active,.btn-vk[disabled].active,fieldset[disabled] .btn-vk.active{background-color:#587ea3;border-color:rgba(0,0,0,0.2)}
 .btn-social-icon i {
   color:white;
+}
+.dropdown-item.active, .dropdown-item:active {
+  color: #182447;
+  text-decoration: none;
+  background-color: #05fd87;
 }

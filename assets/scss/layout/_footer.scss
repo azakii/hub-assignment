@@ -15,7 +15,7 @@ footer {
     .menuInfooter {
         a {
             font-weight: 700;
-            font-size: 1.8rem;
+            font-size: 1.4rem;
             color:#182447;
             margin: 0 2rem;
         }
@@ -46,5 +46,8 @@ footer {
                 top: 1px;
             }
         }
+    }
+    a.btn {
+        margin: 2px;
     }
 }

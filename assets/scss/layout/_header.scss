@@ -56,6 +56,9 @@ transition: height 0.3s;
     font-size: 30px; }
   &.smaller nav a {
     line-height: 75px; }
+    .btn-social-icon {
+        margin: 3px;
+    }
   }
 //Mobile head
 
@@ -259,5 +262,11 @@ a.socialIcon:hover, .socialHoverClass {
     a {
         color:#182447;
         font-family: "Gilroy-ExtraBold";
+    }
+}
+.dropdown-menu {
+    background-color: #05fd87;
+    a {
+        color:#182447;
     }
 }

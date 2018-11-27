@@ -1,1 +1,462 @@
-@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");@media only screen and (min-width: 1701px){html{font-size:16px}}
+/*
+	HUG Theme
+	Author: zaki | HUG
+	Version 0.0.1
+*/
+/* googleFont */
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+/* Font */
+/*
+	Responsive Theme
+	Author: azaki
+	Version 0.0.1
+*/
+/* Large Devices */
+@media only screen and (max-width: 1200px) {
+  /* line 26, E:/My work/web sites/hug/hug_html/Html/assets/scss/layout/_resposive.scss */
+  .firstRow .diamond:nth-child(1) {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+  }
+  /* line 30, E:/My work/web sites/hug/hug_html/Html/assets/scss/layout/_resposive.scss */
+  .firstRow .diamond:nth-child(1) img {
+    height: auto;
+    width: 325px;
+    max-width: inherit !important;
+    margin-left: -100px;
+    margin-top: -40px;
+  }
+  /* line 38, E:/My work/web sites/hug/hug_html/Html/assets/scss/layout/_resposive.scss */
+  .firstRow .diamond:nth-child(2) {
+    width: 95px;
+    height: 95px;
+    margin: 5px;
+    transform: translateY(5px);
+  }
+  /* line 43, E:/My work/web sites/hug/hug_html/Html/assets/scss/layout/_resposive.scss */
+  .firstRow .diamond:nth-child(2) img {
+    height: auto;
+    width: 230px;
+    max-width: inherit !important;
+    margin-left: -70px;
+    margin-top: -20px;
+  }
+  /* line 54, E:/My work/web sites/hug/hug_html/Html/assets/scss/layout/_resposive.scss */
+  .secondRow .diamond:nth-child(1) {
+    width: 160px;
+    height: 160px;
+    margin: 5px 5px 5px 0px;
+  }
+  /* line 58, E:/My work/web sites/hug/hug_html/Html/assets/scss/layout/_resposive.scss */
+  .secondRow .diamond:nth-child(1) img {
+    height: auto;
+    width: 430px;
+    max-width: inherit !important;
+    margin-left: -70px;
+    margin-top: -40px;
+  }
+  /* line 66, E:/My work/web sites/hug/hug_html/Html/assets/scss/layout/_resposive.scss */
+  .secondRow .diamond:nth-child(2) {
+    width: 160px;
+    height: 160px;
+    margin: 5px;
+  }
+  /* line 70, E:/My work/web sites/hug/hug_html/Html/assets/scss/layout/_resposive.scss */
+  .secondRow .diamond:nth-child(2) img {
+    height: auto;
+    width: 430px;
+    max-width: inherit !important;
+    margin-left: -70px;
+    margin-top: -40px;
+  }
+  /* line 78, E:/My work/web sites/hug/hug_html/Html/assets/scss/layout/_resposive.scss */
+  .secondRow .diamond:nth-child(3) {
+    width: 130px;
+    height: 130px;
+    margin: 5px;
+    transform: translateY(30px);
+  }
+  /* line 83, E:/My work/web sites/hug/hug_html/Html/assets/scss/layout/_resposive.scss */
+  .secondRow .diamond:nth-child(3) img {
+    height: auto;
+    width: 360px;
+    max-width: inherit !important;
+    margin-left: -170px;
+    margin-top: -40px;
+  }
+  /* line 94, E:/My work/web sites/hug/hug_html/Html/assets/scss/layout/_resposive.scss */
+  .thirdRow .diamond:nth-child(1) {
+    width: 105px;
+    height: 105px;
+    margin: 5px 5px 5px 50px;
+  }
+  /* line 98, E:/My work/web sites/hug/hug_html/Html/assets/scss/layout/_resposive.scss */
+  .thirdRow .diamond:nth-child(1) img {
+    height: auto;
+    width: 290px;
+    max-width: inherit !important;
+    margin-left: -110px;
+    margin-top: -40px;
+  }
+  /* line 106, E:/My work/web sites/hug/hug_html/Html/assets/scss/layout/_resposive.scss */
+  .thirdRow .diamond:nth-child(2) {
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+  }
+  /* line 110, E:/My work/web sites/hug/hug_html/Html/assets/scss/layout/_resposive.scss */
+  .thirdRow .diamond:nth-child(2) img {
+    height: auto;
+    width: 470px;
+    max-width: inherit !important;
+    margin-left: -220px;
+    margin-top: -40px;
+  }
+  /* line 118, E:/My work/web sites/hug/hug_html/Html/assets/scss/layout/_resposive.scss */
+  .thirdRow .diamond:nth-child(3) {
+    width: 180px;
+    height: 180px;
+    margin: 5px;
+  }
+  /* line 122, E:/My work/web sites/hug/hug_html/Html/assets/scss/layout/_resposive.scss */
+  .thirdRow .diamond:nth-child(3) img {
+    height: auto;
+    width: 470px;
+    max-width: inherit !important;
+    margin-left: -230px;
+    margin-top: -40px;
+  }
+  /* line 132, E:/My work/web sites/hug/hug_html/Html/assets/scss/layout/_resposive.scss */
+  .lastRow .diamond:nth-child(1) {
+    width: 130px;
+    height: 130px;
+    margin: 5px 5px 5px 252px;
+  }
+  /* line 136, E:/My work/web sites/hug/hug_html/Html/assets/scss/layout/_resposive.scss */
+  .lastRow .diamond:nth-child(1) img {
+    height: auto;
+    width: 350px;
+    max-width: inherit !important;
+    margin-left: -160px;
+    margin-top: -40px;
+  }
+  /* line 144, E:/My work/web sites/hug/hug_html/Html/assets/scss/layout/_resposive.scss */
+  .lastRow .diamond:nth-child(2) {
+    width: 160px;
+    height: 160px;
+    margin: -15px 5px 5px 5px;
+  }
+  /* line 148, E:/My work/web sites/hug/hug_html/Html/assets/scss/layout/_resposive.scss */
+  .lastRow .diamond:nth-child(2) img {
+    height: auto;
+    width: 470px;
+    max-width: inherit !important;
+    margin-left: -60px;
+    margin-top: -35px;
+  }
+  /* line 156, E:/My work/web sites/hug/hug_html/Html/assets/scss/layout/_resposive.scss */
+  .lastRow .diamond:nth-child(3) {
+    width: 75px;
+    height: 75px;
+    margin: 0 5px 5px 5px;
+    transform: translateY(50px);
+  }
+  /* line 161, E:/My work/web sites/hug/hug_html/Html/assets/scss/layout/_resposive.scss */
+  .lastRow .diamond:nth-child(3) img {
+    height: auto;
+    width: 200px;
+    max-width: inherit !important;
+    margin-left: -70px;
+    margin-top: -40px;
+  }
+  /* line 171, E:/My work/web sites/hug/hug_html/Html/assets/scss/layout/_resposive.scss */
+  .diamond-grid {
+    *zoom: 1;
+    width: auto;
+    max-width: 620px;
+    float: none;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 100px;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    margin-top: -190px;
+  }
+  /* line 187, E:/My work/web sites/hug/hug_html/Html/assets/scss/layout/_resposive.scss */
+  .viewAll a {
+    display: inline-block;
+    background: #c42133;
+    color: white;
+    font-size: 1rem;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    height: 70px;
+    width: 70px;
+    text-align: center;
+    margin-top: 20px;
+    left: -64px;
+    position: relative;
+    top: -60px;
+  }
+}
+
+@media only screen and (min-width: 1701px) {
+  /* line 205, E:/My work/web sites/hug/hug_html/Html/assets/scss/layout/_resposive.scss */
+  html {
+    font-size: 16px;
+  }
+}
+
+/* 1024 Devices */
+@media only screen and (max-width: 1024px) {
+  /* line 213, E:/My work/web sites/hug/hug_html/Html/assets/scss/layout/_resposive.scss */
+  html {
+    font-size: 14px;
+  }
+  /* line 216, E:/My work/web sites/hug/hug_html/Html/assets/scss/layout/_resposive.scss */
+  #contact button::after {
+    width: 0;
+    height: 0;
+    border-bottom: 37px solid #09f0fe;
+    border-left: 10px solid transparent;
+    content: '';
+    position: absolute;
+    background: #ffffff;
+    left: 0;
+    top: 0;
+  }
+  /* line 227, E:/My work/web sites/hug/hug_html/Html/assets/scss/layout/_resposive.scss */
+  .vTabs .tabs .more a {
+    display: inline-block;
+    display: inline-block;
+    padding: 6px 10px 6px 30px;
+    border: 0;
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: #182447;
+    background: #09f0fe;
+  }
+  /* line 237, E:/My work/web sites/hug/hug_html/Html/assets/scss/layout/_resposive.scss */
+  footer .single button {
+    font-size: 1rem;
+  }
+  /* line 240, E:/My work/web sites/hug/hug_html/Html/assets/scss/layout/_resposive.scss */
+  footer .menuInfooter a {
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: #182447;
+    margin: 0 1rem;
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  /* line 250, E:/My work/web sites/hug/hug_html/Html/assets/scss/layout/_resposive.scss */
+  .slider .carousel-caption h2 {
+    font-size: 2rem;
+    line-height: 29px;
+  }
+  /* line 253, E:/My work/web sites/hug/hug_html/Html/assets/scss/layout/_resposive.scss */
+  .slider .carousel-caption h2 br {
+    display: none;
+  }
+  /* line 257, E:/My work/web sites/hug/hug_html/Html/assets/scss/layout/_resposive.scss */
+  .slider .carousel-control-next-icon {
+    top: 15%;
+  }
+  /* line 261, E:/My work/web sites/hug/hug_html/Html/assets/scss/layout/_resposive.scss */
+  .slider .carousel-item .comments img {
+    width: 50px;
+  }
+  /* line 265, E:/My work/web sites/hug/hug_html/Html/assets/scss/layout/_resposive.scss */
+  .diamond-grid {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    margin-top: 0px;
+    text-align: center;
+  }
+  /* line 270, E:/My work/web sites/hug/hug_html/Html/assets/scss/layout/_resposive.scss */
+  .diamond-grid .diamond {
+    height: 150px !important;
+    margin: 0 !important;
+    transform: translateY(0px) !important;
+    width: 33.33% !important;
+  }
+  /* line 276, E:/My work/web sites/hug/hug_html/Html/assets/scss/layout/_resposive.scss */
+  .diamond-grid .diamond img {
+    margin-left: 0px !important;
+    margin-top: 0px !important;
+  }
+  /* line 283, E:/My work/web sites/hug/hug_html/Html/assets/scss/layout/_resposive.scss */
+  .diamond-grid .diamond a {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  /* line 289, E:/My work/web sites/hug/hug_html/Html/assets/scss/layout/_resposive.scss */
+  .feeds .space {
+    height: 20px;
+  }
+  /* line 292, E:/My work/web sites/hug/hug_html/Html/assets/scss/layout/_resposive.scss */
+  .viewAll {
+    margin-top: 0;
+  }
+  /* line 294, E:/My work/web sites/hug/hug_html/Html/assets/scss/layout/_resposive.scss */
+  .viewAll a {
+    height: auto;
+    width: auto;
+    text-align: center;
+    margin-top: 0;
+    left: inherit;
+    right: inherit;
+    position: static;
+    margin: 10px;
+    transform: rotate(0deg);
+    padding: 10px 20px;
+  }
+  /* line 306, E:/My work/web sites/hug/hug_html/Html/assets/scss/layout/_resposive.scss */
+  .viewAll a span {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  /* line 309, E:/My work/web sites/hug/hug_html/Html/assets/scss/layout/_resposive.scss */
+  .viewAll a span br {
+    display: none;
+  }
+  /* line 313, E:/My work/web sites/hug/hug_html/Html/assets/scss/layout/_resposive.scss */
+  .viewAll a i {
+    display: none;
+  }
+  /* line 318, E:/My work/web sites/hug/hug_html/Html/assets/scss/layout/_resposive.scss */
+  .navbar-collapse {
+    position: absolute;
+    background: #182447;
+    top: 63px;
+    width: 100%;
+    padding: 20px;
+    z-index: 99;
+  }
+}
+
+/* Portrait and Landscape */
+/* Portrait and Landscape */
+/* Small Devices, Tablets */
+@media only screen and (max-width: 767px) {
+  /* line 344, E:/My work/web sites/hug/hug_html/Html/assets/scss/layout/_resposive.scss */
+  #contact iframe {
+    height: 295px !important;
+  }
+  /* line 347, E:/My work/web sites/hug/hug_html/Html/assets/scss/layout/_resposive.scss */
+  #tab-button {
+    margin: 20px 0;
+    padding: 0;
+    list-style: none;
+    margin-left: 0;
+  }
+  /* line 353, E:/My work/web sites/hug/hug_html/Html/assets/scss/layout/_resposive.scss */
+  .vTabs .tabs .more {
+    display: none;
+  }
+  /* line 356, E:/My work/web sites/hug/hug_html/Html/assets/scss/layout/_resposive.scss */
+  .carousel-caption .col-sm-5 {
+    height: 11rem;
+    margin: 1rem 0;
+  }
+  /* line 360, E:/My work/web sites/hug/hug_html/Html/assets/scss/layout/_resposive.scss */
+  .slider .carousel-item .comments {
+    position: relative;
+    left: 0;
+    bottom: 0;
+  }
+  /* line 365, E:/My work/web sites/hug/hug_html/Html/assets/scss/layout/_resposive.scss */
+  .slider .carousel-caption h3 {
+    transform: skew(0deg);
+  }
+  /* line 368, E:/My work/web sites/hug/hug_html/Html/assets/scss/layout/_resposive.scss */
+  footer {
+    text-align: center;
+  }
+  /* line 371, E:/My work/web sites/hug/hug_html/Html/assets/scss/layout/_resposive.scss */
+  .single {
+    margin-top: 20px;
+  }
+  /* line 374, E:/My work/web sites/hug/hug_html/Html/assets/scss/layout/_resposive.scss */
+  .diamond-grid {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    margin-top: 0px;
+    text-align: center;
+    overflow: hidden;
+  }
+  /* line 381, E:/My work/web sites/hug/hug_html/Html/assets/scss/layout/_resposive.scss */
+  .diamond-grid .row img {
+    width: 100% !important;
+    height: inherit !important;
+  }
+  /* line 386, E:/My work/web sites/hug/hug_html/Html/assets/scss/layout/_resposive.scss */
+  .diamond-grid .diamond {
+    height: inherit !important;
+    margin: 0 !important;
+    transform: translateY(0px) !important;
+    width: 100% !important;
+  }
+  /* line 392, E:/My work/web sites/hug/hug_html/Html/assets/scss/layout/_resposive.scss */
+  .diamond-grid .diamond img {
+    margin-left: 0px !important;
+    margin-top: 0px !important;
+  }
+  /* line 399, E:/My work/web sites/hug/hug_html/Html/assets/scss/layout/_resposive.scss */
+  .diamond-grid .diamond a {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  /* line 405, E:/My work/web sites/hug/hug_html/Html/assets/scss/layout/_resposive.scss */
+  header h1#logo {
+    width: 100%;
+    text-align: center;
+    font-size: 0;
+  }
+  /* line 409, E:/My work/web sites/hug/hug_html/Html/assets/scss/layout/_resposive.scss */
+  header h1#logo a {
+    float: none;
+  }
+  /* line 413, E:/My work/web sites/hug/hug_html/Html/assets/scss/layout/_resposive.scss */
+  header nav {
+    display: none;
+  }
+  /* line 416, E:/My work/web sites/hug/hug_html/Html/assets/scss/layout/_resposive.scss */
+  .navbar-dark .navbar-toggler {
+    margin-left: 20px;
+    /* background: #05fd87; */
+    border: 0;
+  }
+  /* line 425, E:/My work/web sites/hug/hug_html/Html/assets/scss/layout/_resposive.scss */
+  .slider .carousel-caption h2 {
+    font-size: 1.375rem;
+    font-weight: 700;
+    width: 100%;
+    float: left;
+    line-height: normal;
+    text-align: left;
+    color: #182447;
+    margin-top: 0;
+    padding-right: 10%;
+    margin-left: 0;
+  }
+  /* line 437, E:/My work/web sites/hug/hug_html/Html/assets/scss/layout/_resposive.scss */
+  .tab-button-outer {
+    display: block;
+  }
+  /* line 440, E:/My work/web sites/hug/hug_html/Html/assets/scss/layout/_resposive.scss */
+  .tab-button-outer .videos::after {
+    display: none;
+  }
+}
+
+/* Extra Small Devices, Phones */
+/* Custom, iPhone Retina */
+
+/*# sourceMappingURL=../css/resposive.map */
